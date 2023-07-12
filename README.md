@@ -13,6 +13,11 @@ pip install video-diffusion
 ```
 
 
+### Making Videos
+
+Note: For Apple M1 architecture, use ```torch.float32``` instead, as ```torch.float16``` is not available on MPS.
+
+```python
 from stable_diffusion_videos import StableDiffusionWalkPipeline
 import torch
 
@@ -32,6 +37,7 @@ video_path = pipeline.walk(
     guidance_scale=8.5,         # Higher adheres to prompt more, lower lets model take the wheel
     num_inference_steps=50,     # Number of diffusion steps per image generated. 50 is good default
 )
+```
 
 
 - 🚀 Diffusion model result
