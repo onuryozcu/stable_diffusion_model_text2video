@@ -11,6 +11,14 @@ This repo is a Text2Video + Image2Video + Video2Video WebUI Implementation.
 ```bash
 pip install video-diffusion
 ```
-<p align="center">
+
+
+- 🚀 Diffusion model result
+- <p align="center">
     <img width="400" src="result.gif" alt="Mimari">
 </p>
+
+- <p align="center">
+    <img width="400" src="stable_diffusion_model_text2video.png" alt="Mimari">
+</p>
+
