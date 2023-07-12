@@ -20,8 +20,5 @@ pip install video-diffusion
     <td>
       <img width="230" alt="teaser" src="https://github.com/onuryozcu/stable_diffusion_model_text2video/stable_diffusion_model_text2video.png"><br>
     </td>
-    
-    <td>
-    </td>
   </tr>
 </table>
